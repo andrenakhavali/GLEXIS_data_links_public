@@ -76,6 +76,13 @@ h1 {
   transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
 }
 
+.source-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
 .source-link,
 .download-list,
 #clearSearch {
@@ -337,6 +344,10 @@ summary:focus-visible {
     flex-direction: column;
   }
 
+  .source-actions {
+    justify-content: flex-start;
+  }
+
   .layout {
     grid-template-columns: 1fr;
   }
@@ -358,4 +369,3 @@ summary:focus-visible {
     max-height: none;
   }
 }
-
