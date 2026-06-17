@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-06-17T11:10:20+00:00",
+  "s3_prefix": "https://s3.iiasa.ac.at/accelerator-prod/glexis/",
+  "datasets": [
+    {
+      "id": "historical",
+      "label": "GLEXIS historical",
+      "source_html": "delta-tree.html",
+      "source_root": "GLEXIS_historical_v2",
+      "display_root": "GLEXIS_historical",
+      "catalog_file": "catalog/glexis_historical_paths.txt",
+      "query_chunks": [],
+      "file_count": 40803,
+      "signed_url_count": 0,
+      "roots": {
+        "GLEXIS_historical_v2": 40803
+      },
+      "sections": {
+        "annual": 8160,
+        "documentation": 3,
+        "ensemble": 32640
+      },
+      "extensions": {
+        ".tif": 20400,
+        ".tif.aux.json": 20400,
+        ".txt": 1,
+        ".yaml": 2
+      },
+      "year_min": 1981,
+      "year_max": 2014,
+      "model_count": 5
+    },
+    {
+      "id": "future",
+      "label": "GLEXIS future",
+      "source_html": "delta-tree (2).html",
+      "source_root": "GLEXIS_future",
+      "display_root": "GLEXIS_future",
+      "catalog_file": "catalog/glexis_future_paths.txt",
+      "query_chunks": [
+        {
+          "file": "catalog/future_queries_001.txt",
+          "start": 0,
+          "count": 226079
+        },
+        {
+          "file": "catalog/future_queries_002.txt",
+          "start": 226079,
+          "count": 83521
+        }
+      ],
+      "file_count": 309600,
+      "signed_url_count": 238180,
+      "roots": {
+        "GLEXIS_future": 309600
+      },
+      "sections": {
+        "annual": 61920,
+        "ensemble": 247680
+      },
+      "extensions": {
+        ".tif": 154800,
+        ".tif.aux.json": 154800
+      },
+      "year_min": 2015,
+      "year_max": 2100,
+      "model_count": 15
+    }
+  ]
+}
